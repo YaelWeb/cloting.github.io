@@ -1,0 +1,81 @@
+body
+{
+    background-color: #6A7793
+    ;
+    margin: 0px;
+}
+.title
+{
+    margin-top: 20px;
+    padding: 5px;
+    width: 40%;
+    font: 40px verdana;
+    background-color: #aaaecf;
+    color:   rgb(33, 40, 96);
+    border-style: solid;
+    border-radius: 20px;
+    border-color:  #6A7793;
+}
+.imagen_venta
+{
+    transition: all .75s;
+    width: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(33, 40, 96);
+
+}
+.imagen_venta:hover
+{
+    transition: all .75s;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(33, 40, 96);
+    transform: scale(1.3);
+}
+.producto
+{
+    transition: all .75s;
+    padding: 20px;
+    width:50ch;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(33, 40, 96);
+    background-color: #CFD1E0
+
+    ;
+
+}
+.producto:hover
+{
+    transition: all .75s;
+    padding: 20px;
+    width:50ch;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+background-color: rgb(197, 201, 236);
+
+}
+h2
+{
+    font: 20px verdana;
+}
+.comprar
+{
+    border-style: solid;
+    border-color:#CFD1E0;
+    border-radius: 15px;
+    width: auto;
+    color: white;
+    background-color: #6A7793;
+}
+.comprar:hover
+{
+    border-style: solid;
+    border-color  #6A7793;
+    border-radius: 15px;
+    width: auto;
+    color: #6A7793;
+    background-color: #CFD1E0;
+}
